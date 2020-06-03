@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashActivityTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/start_page</item>
+    </style>
+
+    <style name="AboutActivityTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/about</item>
+    </style>
+
+    <style name="CheckBoxThemeLoginRememberPassword">
+        <item name="colorAccent">@color/waveMiddleColor2</item><!--选中颜色-->
+        <item name="colorControlNormal">@color/textColorHint</item><!--未选中颜色-->
+    </style>
+</resources>
